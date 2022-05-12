@@ -8,8 +8,8 @@ export default function MainRoutes() {
   return (
     <Routes>
       <Route path="/" element={<AllCompanies />} />
-      <Route path="/companies" element={<AllCompaniesNum />} />
-      <Route path="/numbers" element={<CompanyNumber />} />
+      <Route path="companies" element={<AllCompaniesNum />} />
+      <Route path="numbers" element={<CompanyNumber />} />
     </Routes>
   );
 }

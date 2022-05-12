@@ -11,7 +11,7 @@ export default function AllCompanies() {
     const phoneNumbers = getAllPhoneNumbersData.filter(
       (item) => item.company_id === id
     );
-    return history("/companies", { state: { name, phoneNumbers } });
+    return history("companies", { state: { name, phoneNumbers } });
   };
 
   return (
