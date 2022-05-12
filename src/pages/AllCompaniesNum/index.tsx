@@ -17,7 +17,7 @@ export default function AllCompaniesNum() {
   const history = useNavigate();
 
   const handleClick = (id: string, type: string) => {
-    return history("/numbers", { state: { id, type } });
+    return history("numbers", { state: { id, type } });
   };
 
   return (
